@@ -46,7 +46,7 @@ class RegisterPage {
     }
 
     selectCountry() {
-        cy.get(this.countrySelect).select('Turkey')
+        cy.get(this.countrySelect).select('Turkiye')
     }
 
     writePhone() {
