@@ -18,19 +18,19 @@ class RegisterPage {
 
     // Metotlar
     writeFirstName() {
-        cy.get(this.firstNameInput).type('Gürkay')
+        cy.get(this.firstNameInput).type('Furkan')
     }
 
     writeLastName() {
-        cy.get(this.lastNameInput).type('Birinci')
+        cy.get(this.lastNameInput).type('Kilic')
     }
 
     writeDateOfBirth() {
-        cy.get(this.dateOfBirthInput).type('1980-12-12')
+        cy.get(this.dateOfBirthInput).type('1996-12-12')
     }
 
     writeAddress() {
-        cy.get(this.addressInput).type('Bağlık mahallesi, Tavşan sokak, No:21')
+        cy.get(this.addressInput).type('Üçtutlar Mahallesi 8. sokak')
     }
 
     writePostCode() {
@@ -38,11 +38,11 @@ class RegisterPage {
     }
 
     writeCity() {
-        cy.get(this.cityInput).type('Zonguldak')
+        cy.get(this.cityInput).type('Amasya')
     }
 
     writeState() {
-        cy.get(this.stateInput).type('Ereğli')
+        cy.get(this.stateInput).type('Merkez')
     }
 
     selectCountry() {
